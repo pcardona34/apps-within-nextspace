@@ -6,7 +6,7 @@
 3) Submitting Pull Requests to the maintainers of the respective projects if necessary.
 
 ## Why within NeXTspace ?
-[NeXTspace](https://github.com/trunkmaster/nextspace) of Sergii Stoian (alias [*trunkmaster*](https://trunkmaster.github.io/)) and coll. is a great project, which is accomplishing the convergence between the [NeXT](https://www.nextcomputers.org/forums/index.php)/OPENSTEP [specifications](https://www.gnustep.org/resources/OpenStepSpec/OpenStepSpec.html) using the powerfull [GNUstep](https://www.gnustep.org/) development framework on a modern [GNU/Linux](https://www.gnu.org/gnu/gnu-linux-faq.html) operating system like [Fedora](https://fedoraproject.org/) or [Debian](https://www.debian.org/). Maybe one day on a BSD like FreeBSD ?
+[NeXTspace](https://github.com/trunkmaster/nextspace) of Sergii Stoian (alias [*trunkmaster*](https://trunkmaster.github.io/)) and coll. is a great project, which is accomplishing the convergence between the [NeXT](https://www.nextcomputers.org/forums/index.php)/OPENSTEP [specifications](https://www.gnustep.org/resources/OpenStepSpec/OpenStepSpec.html) using the powerfull [GNUstep](https://www.gnustep.org/) development framework and a modern [GNU/Linux](https://www.gnu.org/gnu/gnu-linux-faq.html) operating system like [Fedora](https://fedoraproject.org/) or [Debian](https://www.debian.org/). Maybe one day on a BSD like FreeBSD ?
 
 It is not yet achieved, but it is on the rails.
 In the meanwhile, I think usefull to test and to help installing smoothly some apps from the OPENSTEP/GNUstep echosystem in NeXTspace.
@@ -60,7 +60,7 @@ If You didn't already set it, you can do it like this:
 sudo passwd root
 ````
 
-Now You can execute the last script again and it will end the installatio.
+Now You can execute the last script again and it will end the installation.
 
 Be patient... Those scripts will be pushed up to this repository step after step...
 You can read these instructions in every README present in each folder.
