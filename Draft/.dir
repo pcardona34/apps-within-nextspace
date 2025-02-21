@@ -1,0 +1,14 @@
+{
+    ShelfContents = {
+	(
+	    <*I0>,
+	    <*I0>
+	) = (
+	    "/home/patrick/SOURCES/apps-within-nextspace/Draft"
+	);
+    };
+    ShelfSize = <*I76>;
+    ViewerPath = "/";
+    ViewerType = Browser;
+    ViewerWindow = "{x = 291; y = 262; width = 562; height = 422}";
+}
