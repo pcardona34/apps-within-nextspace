@@ -67,7 +67,7 @@ You can read these instructions in every README present in each folder.
 
 ### Releases
 
-Read the CHANGES Log to be aware of recent changes and new installers available. 
+Read the [CHANGES Log](CHANGES.md) to be aware of recent changes and new installers available. 
 
 ### Making your own installer folder
 
