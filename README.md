@@ -15,7 +15,7 @@ In the meanwhile, I think usefull to test and to help installing smoothly some a
 
 Well, even though I am a GNU/Linux user from the 95th years, I am not considering myself as a guru, because my first profession was to teach litterature. I am not an ingeneer and even today I need to learn things to understand. So it is a matter of free time and curiosity. But there are some requirements to be not frustrated:
 - You should already know the basis of using the [command line tools in an UNIX shell](https://swcarpentry.github.io/shell-novice/reference.html).
-- You should know and understand the philosophy behind the [GNUstep project](https://www.gnustep.org/), the [NeXT/OPENSTEP world ergonomy](https://youtu.be/Nc3VttWuslw?si=INLvOjqU3KFiN_zC). Though it has made the foundations of the Mac OS we know today, it is not the goal to ape Apple, but to accomplish the initial NeXT perspective. And as in arts, Esthetism in computers is a matter of choice. I prefer think about efficiency and ergonomy.
+- You should know and understand the philosophy behind the [GNUstep project](https://www.gnustep.org/), the NeXT/OPENSTEP world, more particularly the [Quick Start to OpenStep Desktop.pdf](https://github.com/userLevel/next/blob/ea1deb7b6f4e482179b802e20cb7171605d4b484/Quick%20Start%20to%20OpenStep%20Desktop.pdf). Though it has made the foundations of the Mac OS we know today, it is not the goal to ape Apple, but to accomplish the initial NeXT perspective. And as in arts, Esthetism in computers is a matter of taste. I prefer think about efficiency and ergonomy.
 
 ## Where are the apps from ?
 
