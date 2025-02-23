@@ -2,6 +2,13 @@
 
 _PWD=`pwd`
 
+if [ -d /Developer/Makefiles ];then
+    export GNUSTEP_MAKEFILES="/Developer/Makefiles"
+    if [ -f /opt/rh/llvm-toolset-7.0/enable ];then
+        . /opt/rh/llvm-toolset-7.0/enable
+    fi
+fi
+
 if ! [ -f ${_PWD}/desc.sh ];then
 	printf "\nError: the desc file is not found. Aborting."
 	exit 1
@@ -16,8 +23,8 @@ if ! [ -f ${APPNAME}.app/${APPNAME} ];then
 	exit 1
 fi
 
-printf "\nType the 'root' password below to accomplish installation:\n"
-su -m -c "make install ${INSTALL_ARGS}"
+printf "\nYour password maybe required to accomplish the installation:\n"
+sudo -E make install ${_INSTALL_ARGS}
 
 if [ -n "${RUN_AT_END}" ];then
 	openapp ${APPNAME}

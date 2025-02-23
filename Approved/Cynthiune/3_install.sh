@@ -1,5 +1,7 @@
 #!/bin/bash
 
+. /etc/profile.d/nextspace.sh
+
 _PWD=`pwd`
 
 if ! [ -f ${_PWD}/desc.sh ];then
@@ -16,8 +18,8 @@ if ! [ -f ${APPNAME}.app/${APPNAME} ];then
 	exit 1
 fi
 
-printf "\nType the 'root' password below to accomplish installation:\n"
-su -m -c "make install ${INSTALL_ARGS}"
+printf "\nYour password maybe required to accomplish the installation:\n"
+sudo -E make install ${INSTALL_ARGS}
 
 if [ -n "${RUN_AT_END}" ];then
 	openapp ${APPNAME}

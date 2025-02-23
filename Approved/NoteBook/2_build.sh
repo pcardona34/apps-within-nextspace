@@ -1,5 +1,4 @@
-
-#!/bin/bash
+#!/bin/sh
 
 _PWD=`pwd`
 
@@ -12,6 +11,6 @@ fi
 
 cd ../../../Applications/${REPO}/${PATH_SRC} || exit 1
 
-make ${BUILD_ARGS}
+make ${_BUILD_ARGS}
 
 cd ${_PWD}
