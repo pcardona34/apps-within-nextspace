@@ -1,4 +1,4 @@
-# apps-within-nextspace
+﻿# apps-within-nextspace
 
 ## Purposes
 1) Testing and Automating Apps installation within the [NeXTspace](https://github.com/trunkmaster/nextspace) environment.
@@ -51,16 +51,7 @@ Then, You should run the scripts:
 ./3_install.sh
 ````
 
-The last script will ask you to type the 'root' password,
-not yours, even you are a member of the 'sudoers' group. It is necessary to
-get the right env to install.
-If You didn't already set it, you can do it like this:
-
-````
-sudo passwd root
-````
-
-Now You can execute the last script again and it will end the installation.
+The last script may ask you to type your password as a 'sudoers' group member.
 
 Be patient... Those scripts will be pushed up to this repository step after step...
 You can read these instructions in every README present in each folder.
@@ -71,18 +62,19 @@ Read the [CHANGES Log](CHANGES.md) to be aware of recent changes and new install
 
 ### Making your own installer folder
 
-1) Copy the 'Model' folder into the 'Draft' folder and rename it:
+1) Duplicate the 'Model' folder into the 'Draft' folder and rename it:
 
 ````
-cp Model Draft/newName
+cp Draft/Model Draft/newName
 ```` 
 
 
-2) Set the vars in the 'desc.sh' config file.
+2) Set the vars in the 'desc.sh' config file, maybe in the deps-<os>-<version>.sh too.
 
 ````
 cd Draft/newName
 editor desc.sh
+editor deps-<os>-<version>.sh
 ````
 
 3) Test and modifiy the vars as necessary.
