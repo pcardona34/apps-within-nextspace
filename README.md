@@ -26,6 +26,10 @@ A solid base already exists thanks to the work of the GNUstep community: I do ap
 - Already Consistant efforts of Ondrej Florian (Onflapp) to improve and port those apps to [GS-Desktop](https://github.com/onflapp/gs-desktop) and the ones he also created.
 - Maybe others, still orphaned, but worth kwowing ?
 
+## Prerequisite
+
+Of course, You are assumed to have first installed the [NEXTSPACE](https://github.com/trunkmaster/nextspace) desktop environment.
+
 ## What is the method ?
 
 - We should consider the tasks we need or we want to accomplish with a computer to be simple and efficient. So, like in the UNIX philosophy, we wil consider that the good app or the good tool is that which accomplishes what we want to do, not more, not less. So the order will be:
@@ -78,3 +82,7 @@ editor deps-<os>-<version>.sh
 ````
 
 3) Test and modifiy the vars as necessary.
+
+## TODO
+
+In the medium term, it is planned to offer a native GNUstep application to serve as an interface for the installation of these applications.
