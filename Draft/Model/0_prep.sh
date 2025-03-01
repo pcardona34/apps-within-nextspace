@@ -37,7 +37,7 @@ case "${OS_ID}" in
 		PACKETMGR="sudo dnf install";;
 	"unknown" | *)
 		printf "\nSorry! This Operating System is not yet handled. \
-		If You managed to setup NeXTspace under such OS, tell us.\n"
+		If You managed to setup NEXTSPACE under such OS, tell us.\n"
 		exit 1;;
 esac
 

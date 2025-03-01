@@ -51,11 +51,8 @@ if [ -n "${PATCH}" ];then
 
 	TARGET=`grep -i -e "index" ${_PWD}/${PATCH} | awk '{print $2}'`
 	TARGET=${PATH_SRC}/${TARGET}
-	patch -u --dry-run ${TARGET} -i ${_PWD}/${PATCH}
-	if [ $? -eq 0 ];then
-		printf "It'ok. Applying the Patch...\n"
-		patch -u ${TARGET} -i ${_PWD}/${PATCH}
-	fi
+	printf "Applying the Patch...\n"
+	patch --forward -u ${TARGET} -i ${_PWD}/${PATCH}
 fi
 
 cd ${_PWD}

@@ -1,12 +1,13 @@
 #!/bin/bash
 
 _PWD=`pwd`
+_NX_PROFILE=/etc/profile.d/nextspace.sh
 
-if [ -d /Developer/Makefiles ];then
-    export GNUSTEP_MAKEFILES="/Developer/Makefiles"
-    if [ -f /opt/rh/llvm-toolset-7.0/enable ];then
-        . /opt/rh/llvm-toolset-7.0/enable
-    fi
+if [ -f ${_NX_PROFILE} ];then
+        . ${_NX_PROFILE}
+else
+        printf "\nError: ${_NX_PROFILE} not found.\n"
+        exit 1
 fi
 
 if ! [ -f ${_PWD}/desc.sh ];then
@@ -24,7 +25,7 @@ if ! [ -f ${APPNAME}.app/${APPNAME} ];then
 fi
 
 printf "\nYour password maybe required to accomplish the installation:\n"
-sudo -E make install ${_INSTALL_ARGS}
+sudo -E make install ${INSTALL_ARGS}
 
 if [ -n "${RUN_AT_END}" ];then
 	openapp ${APPNAME}
