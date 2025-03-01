@@ -28,7 +28,7 @@
 - It is the [gs-webbroser](https://github.com/onflapp/gs-webbrowser) fetched from [GS-Desktop](https://github.com/onflapp/gs-desktop) project.
 - Author: Ondrej Florian (Onflapp)
 - **Status**: installable.
-- [ ] Needs more tests and checks to approve the integration into NeXTspace.
+- [ ] Needs more tests and checks to approve the integration into NEXTSPACE.
 - Checked dependencies: chromium.
 
 ---
@@ -48,6 +48,6 @@
 
 - [ ] Testing and adding other apps...
 - [ ] Porting to **Ultramarine** (*Fedora* like) : dependencies to check.
-- [ ] Conceive / (maybe adapting an existent one) app Installer with a GUI to make things easier for the End User to install, test and remove apps in NeXTspace.
+- [ ] Conceive / (maybe adapting an existent one) app Installer with a GUI to make things easier for the End User to install, test and remove apps in NEXTSPACE.
 
 To be continued... ;-)
