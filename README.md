@@ -1,7 +1,7 @@
 ﻿# apps-within-nextspace
 
 ## Purposes
-1) Testing and Automating Apps installation within the [NEXTSPACE](https://github.com/trunkmaster/nextspace) environment.
+1) Testing and Automating Frameworks and Apps installation within the [NEXTSPACE](https://github.com/trunkmaster/nextspace) environment.
 2) When it does not yet exist, adding a French translation of the UI.
 3) Submitting Pull Requests to the maintainers of the respective projects if necessary.
 
@@ -36,17 +36,30 @@ Of course, You are assumed to have first installed the [NEXTSPACE](https://githu
 1) To enumerate tasks and then to intend, test and adopt the app, the tool or maybe the service an app could offer to another.
 2) To script the install process for the end user.
 
-## How to install with an existent script ?
-
-Open the folder "Approved", and then the folder of the app to install.
-
-### Example: installing NoteBook, a note taking app.
+## How to install all the selected apps once ?
 
 ````
-cd Approved/NoteBook
+mkdir SOURCES
+cd SOURCES
+git clone https://github.com/pcardona34/apps-within-nextspace.git
+cd apps-within-nexstspace
+./install.sh
 ````
 
-Then, You should run the scripts:
+That's all.
+
+## Advanced use
+
+Maybe You want to add 'Foo.app' and test its installation ?
+
+````
+cd Draft
+cp --recursive ModelApp Foo
+cd Foo
+````
+
+- Adapt `desc.sh` and maybe `deps-<os>-<version>.sh`.
+- Test the installation steps from 0 to 3...
 
 ````
 ./0_prep.sh
@@ -55,33 +68,35 @@ Then, You should run the scripts:
 ./3_install.sh
 ````
 
+- If it is ok, then move 'Foo' folder to 'Applications':
+
+````
+mv Foo ../Applications/
+````
+ 
 The last script may ask you to type your password as a 'sudoers' group member.
 
-Be patient... Those scripts will be pushed up to this repository step after step...
-You can read these instructions in every README present in each folder.
+---
+
+Maybe You want to add 'Bar' framework and test its installation ?
+
+````
+cd Draft
+cp --recursive ModelFW Bar
+cd Bar
+````
+
+Adapt and test like You did with the app example...
+
+- If it is ok, then move 'Bar' folder to 'Frameworks':
+
+````
+mv Bar ../Frameworks/
+````
 
 ### Releases
 
 Read the [CHANGES Log](CHANGES.md) to be aware of recent changes and new installers available. 
-
-### Making your own installer folder
-
-1) Duplicate the 'Model' folder into the 'Draft' folder and rename it:
-
-````
-cp Draft/Model Draft/newName
-```` 
-
-
-2) Set the vars in the 'desc.sh' config file, maybe in the deps-<os>-<version>.sh too.
-
-````
-cd Draft/newName
-editor desc.sh
-editor deps-<os>-<version>.sh
-````
-
-3) Test and modifiy the vars as necessary.
 
 ## TODO
 

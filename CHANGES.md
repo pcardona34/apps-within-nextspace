@@ -1,12 +1,20 @@
 # LOG of CHANGES
 
+### 2025 March 18th
+
+- Now, two models : one for apps and the other for frameworks
+- A single script (`install.sh`) allow You to install all frameworks and apps at once.
+- Added some more apps and frameworks : see '# Available apps...' section below...
+
 ### 2025 Feb. 21th
 
 - The  scripts are functional and the first installers are available under the 'Approved' folder.
 - !!! **BE AWARE** !!! Until now, only **debian 12** dependencies have been set and tested.
 - Three first apps available: NoteBook, WebBrowser, Cynthiune. 
 
-# Available apps in the 'Approved' Folder
+# Available apps installers in the 'Applications' Folder
+
+Sum: 4 apps | 1 framework
 
 ## Note Taking: *NoteBook*
 
@@ -14,7 +22,7 @@
 - Licence: GPL 
 - Source: due to broken links, fetching a safe source using the Internet Archives. Publishing the version 0.3 as is at a [new public repository](https://github.com/pcardona34/gnustep-notebook) at Github.
 - **Status**: installable, functional. I have been using it fluently for several months.
-- Checked dependencies: only GNUstep.
+- Checked dependencies: only GNUstep needed.
 
 #### TODO / Enhancements
 - [ ] Improve warning and saving a note while changing to a new writing context, like a subnote.
@@ -27,7 +35,7 @@
 
 - It is the [gs-webbroser](https://github.com/onflapp/gs-webbrowser) fetched from [GS-Desktop](https://github.com/onflapp/gs-desktop) project.
 - Author: Ondrej Florian (Onflapp)
-- **Status**: installable.
+- **Status**: installable. Not fully functionnal due to the [454th issue of NEXTSPACE](https://github.com/trunkmaster/nextspace/issues/454)...
 - [ ] Needs more tests and checks to approve the integration into NEXTSPACE.
 - Checked dependencies: chromium.
 
@@ -44,10 +52,24 @@
 
 ---
 
+## Reading NewsGroup: *LuserNET*
+
+- Author: Alexander Malmberg 
+- Release: 0.4.3
+- Source: from Savannah repository.
+- Dependency: Pantomime Framework added.
+- **Status**: installable, functional. Loading issue (see below)
+- **Issue**: not loading from AppIcon ('Error: exited with code 127'). But works from Terminal: `openapp LuserNET`
+
+---
+
+
+
 # TODO
 
-- [ ] Testing and adding other apps...
+- [x] Testing and adding other apps...
 - [ ] Porting to **Ultramarine** (*Fedora* like) : dependencies to check.
 - [ ] Conceive / (maybe adapting an existent one) app Installer with a GUI to make things easier for the End User to install, test and remove apps in NEXTSPACE.
 
 To be continued... ;-)
+)
