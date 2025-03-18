@@ -1,13 +1,14 @@
 #!/bin/bash
 
 _VERSION=0.1
+__HERE=`dirname $0`
 
 cd Frameworks || exit 1
 __PWD=`pwd`
 
 clear
 printf "Frameworks needed by the Apps to install"
-printf "\n======================================="
+printf "\n=======================================\n"
 
 for _FOLDER in `ls`
 do
@@ -30,7 +31,7 @@ __PWD=`pwd`
 
 clear
 printf "Other GNUstep compliant apps with NEXTSPACE"
-printf "\n==========================================="
+printf "\n===========================================\n"
 
 for _FOLDER in `ls`
 do
@@ -45,3 +46,22 @@ do
 		cd "$__PWD"
 	fi
 done
+
+cd ../..
+
+clear
+printf "Cleaning SOURCES folder..."
+printf "\n===========================================\n"
+
+
+cd Applications || exit 1
+
+find . -type f -name '*.gz' -delete -print
+
+cd ..
+
+cd Frameworks || exit 1
+
+find . -type f -name '*.gz' -delete -print
+
+cd ${__HERE}
