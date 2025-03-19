@@ -2,6 +2,13 @@
 
 _VERSION=0.1
 __HERE=`dirname $0`
+# Comment MODE_TEST before publishing
+#MODE_TEST="YES"
+
+if [ "$MODE_TEST" == "YES" ];then
+	printf "\n${0} is running on mode test.\nComment this option before publishing.\n"
+	sleep 3
+fi
 
 cd Frameworks || exit 1
 __PWD=`pwd`
@@ -48,6 +55,12 @@ do
 done
 
 cd ../..
+
+
+if [ "$MODE_TEST" == "YES" ];then
+	printf "\nWe do not clean archives downloaded.\n"
+	exit 0
+fi
 
 clear
 printf "Cleaning SOURCES folder..."

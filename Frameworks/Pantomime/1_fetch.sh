@@ -34,8 +34,13 @@ if [ -n "${METHOD}" ];then
 			fi;;
 		"get")
 			printf "\nMethod: ${METHOD}\n"
-			wget "${HUB}${FWNAME}-${VERSION}${EXT}"
-			tar -xvf ${FWNAME}-${VERSION}${EXT};;
+			ARCHIVE=${FWNAME}-${VERSION}${EXT}
+			if [ ! -f "$ARCHIVE" ];then
+				wget "${HUB}${ARCHIVE}"
+			else
+				printf "\nThe Framework Archive already exists.\n"
+			fi
+			tar -xvf ${ARCHIVE};;
 	"default")
 			printf "\nError: the method ${METHOD} is not handled.\n"
 			exit 1;;
