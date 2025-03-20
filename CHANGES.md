@@ -44,7 +44,7 @@ Sum: 4 apps | 1 framework
 ## Listening Music: *Cynthiune*
 
 - Well kwown music player. See there for more details: [GNUstep wiki: Cynthiune](https://mediawiki.gnustep.org/index.php/Cynthiune.app)
-- Source : fetching from [gap](https://github.com/gnustep/gap)
+- Source: fetching from [gap](https://github.com/gnustep/gap)
 - **Patched**: from [Savannah](https://savannah.nongnu.org/bugs/?61807)
 - Configured to listen to 'mp3' and 'ogg' audio files.
 - **Status**: intallable, functional.
@@ -63,13 +63,28 @@ Sum: 4 apps | 1 framework
 
 ---
 
+## Mail and Addresses : GNUMail and AddressManager
 
+### GNUMail
+
+- Authors: many ;-) (see Info Panel)
+- Release : 1.4.0
+- Source: from Savannah repository.
+- Dependency: Addresses and AddressView frameworks added.
+- **Status**: installable, functional. Loading issue (idem as *LuserNET* above)
+
+### AddressManager
+
+- Authors: see Info Panel.
+- Release: 0.4.9
+- Source: fetching from [gap](https://github.com/gnustep/gap)
+- Dependency: Addresses and AddressView frameworks added.
+- **Status**: installable, functional. Loading issue (idem as *LuserNET* above)
 
 # TODO
 
-- [x] Testing and adding other apps...
+- [x] Testing and adding other apps... To be continued... ;-)
 - [ ] Porting to **Ultramarine** (*Fedora* like) : dependencies to check.
 - [ ] Conceive / (maybe adapting an existent one) app Installer with a GUI to make things easier for the End User to install, test and remove apps in NEXTSPACE.
 
-To be continued... ;-)
-)
+
