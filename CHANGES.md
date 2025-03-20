@@ -1,5 +1,9 @@
 # LOG of CHANGES
 
+### 2025 March 20th
+
+- Added more apps: AddressManager, GNUMail.
+
 ### 2025 March 18th
 
 - Now, two models : one for apps and the other for frameworks
@@ -25,9 +29,7 @@ Sum: 4 apps | 1 framework
 - Checked dependencies: only GNUstep needed.
 
 #### TODO / Enhancements
-- [ ] Improve warning and saving a note while changing to a new writing context, like a subnote.
-- [ ] Cosmetic: icons more close to the spirit of [GNUstep icons specs](https://www.gnustep.org/resources/documentation/Developer/UserExperience/usual-icons.html).
-- [ ] Enhancements: encrypted notes... Saving passwords. 
+See the new Repository for more details.
 
 ---
 
