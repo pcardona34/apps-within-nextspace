@@ -67,14 +67,13 @@ cd Foo
 ./2_build.sh
 ./3_install.sh
 ````
+The last script (`3_install.sh`) may ask you to type your password as a 'sudoers' group member.
 
 - If it is ok, then move 'Foo' folder to 'Applications':
 
 ````
 mv Foo ../Applications/
 ````
- 
-The last script may ask you to type your password as a 'sudoers' group member.
 
 ---
 
