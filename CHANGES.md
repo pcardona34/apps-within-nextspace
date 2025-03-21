@@ -1,8 +1,13 @@
 # LOG of CHANGES
 
+### 2025 March 21th
+
+- Fixed issue #1: udating Addresses to 0.5.0 release.
+- Added: SimpleAgenda
+
 ### 2025 March 20th
 
-- Added more apps: AddressManager, GNUMail.
+- Added more apps: Addresses (AddressManager), GNUMail.
 
 ### 2025 March 18th
 
@@ -18,7 +23,7 @@
 
 # Available apps installers in the 'Applications' Folder
 
-Sum: 4 apps | 1 framework
+Sum: 7 apps | 3 frameworks
 
 ## Note Taking: *NoteBook*
 
@@ -27,9 +32,6 @@ Sum: 4 apps | 1 framework
 - Source: due to broken links, fetching a safe source using the Internet Archives. Publishing the version 0.3 as is at a [new public repository](https://github.com/pcardona34/gnustep-notebook) at Github.
 - **Status**: installable, functional. I have been using it fluently for several months.
 - Checked dependencies: only GNUstep needed.
-
-#### TODO / Enhancements
-See the new Repository for more details.
 
 ---
 
@@ -60,12 +62,11 @@ See the new Repository for more details.
 - Release: 0.4.3
 - Source: from Savannah repository.
 - Dependency: Pantomime Framework added.
-- **Status**: installable, functional. Loading issue (see below)
-- **Issue**: not loading from AppIcon ('Error: exited with code 127'). But works from Terminal: `openapp LuserNET`
+- **Status**: installable, functional.
 
 ---
 
-## Mail and Addresses : GNUMail and AddressManager
+## Mail and Addresses : *GNUMail* and *AddressManager*
 
 ### GNUMail
 
@@ -73,15 +74,22 @@ See the new Repository for more details.
 - Release : 1.4.0
 - Source: from Savannah repository.
 - Dependency: Addresses and AddressView frameworks added.
-- **Status**: installable, functional. Loading issue (idem as *LuserNET* above)
+- **Status**: installable, functional.
 
 ### AddressManager
 
 - Authors: see Info Panel.
-- Release: 0.4.9
-- Source: fetching from [gap](https://github.com/gnustep/gap)
-- Dependency: Addresses and AddressView frameworks added.
-- **Status**: installable, functional. Loading issue (idem as *LuserNET* above)
+- Release: 0.5.0
+- Source: fetching from Savannah.
+- Dependencies: Addresses and AddressView frameworks added.
+- **Status**: installable, functional.
+
+## Tasks and Appointments : *SimpleAgenda*
+
+- Author: Philippe Roussel
+- Release: 0.4.7
+- Source: github repo.
+- Dependencies: see homesite.
 
 # TODO
 
