@@ -1,14 +1,13 @@
 #!/bin/sh
 
 APPNAME="AddressManager"
-ARCHIVE="Addresses"
-VERSION="0.5.0"
+VERSION="0.4.9"
 SHORTNAME="addressmanager"
-REPO=""
-METHOD="get"					# "git" | "get"
-HUB="http://savannah.nongnu.org/download/gap/"
-EXT=".tar.gz"					# if get method: "zip" | "tar.gz"...
-PATH_SRC="${ARCHIVE}-${VERSION}/${APPNAME}"
+REPO="gap"
+METHOD="git"					# "git" | "get"
+HUB="https://github.com/gnustep/"
+EXT=""					# if get method: "zip" | "tar.gz"...
+PATH_SRC="system-apps/Addresses/${APPNAME}"
 FRAMEWORKS="Addresses AddressView"
 DEPS=""					# "YES" or leave empty
 

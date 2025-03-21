@@ -1,13 +1,13 @@
 #!/bin/sh
 
 FWNAME="Addresses"
-VERSION="0.5.0"
+VERSION=""
 SHORTNAME="addresses"
-REPO=""
-METHOD="get"					# "git" | "get"
-HUB="http://savannah.nongnu.org/download/gap/"
-EXT=".tar.gz"					# if get method: "zip" | "tar.gz"...
-PATH_SRC="${FWNAME}-${VERSION}/Frameworks/${FWNAME}"
+REPO="gap"
+METHOD="git"					# "git" | "get"
+HUB="https://github.com/gnustep/"
+EXT=""					# if get method: "zip" | "tar.gz"...
+PATH_SRC="system-apps/${FWNAME}/Frameworks/${FWNAME}"
 DEPS=""					# "YES" or leave empty
 
 # READ SPECIFIC INFOS IN SOURCE FOLDER

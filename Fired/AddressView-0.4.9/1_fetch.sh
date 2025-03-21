@@ -9,11 +9,11 @@ else
 	. ${_PWD}/desc.sh
 fi
 
-if ! [ -d "../../../Applications" ];then
-	mkdir -p ../../../Applications
+if ! [ -d "../../../Frameworks" ];then
+	mkdir -p ../../../Frameworks
 fi
 
-cd ../../../Applications || exit 1
+cd ../../../Frameworks || exit 1
 
 
 if [ -n "${METHOD}" ];then
@@ -34,13 +34,13 @@ if [ -n "${METHOD}" ];then
 			fi;;
 		"get")
 			printf "\nMethod: ${METHOD}\n"
-			ARCH=${ARCHIVE}-${VERSION}${EXT}
-			if [ ! -f "$ARCH" ];then
-				wget "${HUB}${ARCH}"
+			ARCHIVE=${FWNAME}-${VERSION}${EXT}
+			if [ ! -f "$ARCHIVE" ];then
+				wget "${HUB}${ARCHIVE}"
 			else
-				printf "\nFile Archive ${ARCH} already exists.\n"
+				printf "\nThe Framework Archive already exists.\n"
 			fi
-			tar -xvf ${ARCHIVE}-${VERSION}${EXT};;
+			tar -xvf ${ARCHIVE};;
 	"default")
 			printf "\nError: the method ${METHOD} is not handled.\n"
 			exit 1;;

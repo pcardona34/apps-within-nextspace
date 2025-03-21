@@ -34,13 +34,13 @@ if [ -n "${METHOD}" ];then
 			fi;;
 		"get")
 			printf "\nMethod: ${METHOD}\n"
-			ARCH=${ARCHIVE}-${VERSION}${EXT}
-			if [ ! -f "$ARCH" ];then
-				wget "${HUB}${ARCH}"
+			ARCHIVE=${APPNAME}-${VERSION}${EXT}
+			if [ ! -f "$ARCHIVE" ];then
+				wget "${HUB}${ARCHIVE}"
 			else
-				printf "\nFile Archive ${ARCH} already exists.\n"
+				printf "\nFile Archive  ${ARCHIVE} already exists.\n"
 			fi
-			tar -xvf ${ARCHIVE}-${VERSION}${EXT};;
+			tar -xvf ${APPNAME}-${VERSION}${EXT};;
 	"default")
 			printf "\nError: the method ${METHOD} is not handled.\n"
 			exit 1;;
