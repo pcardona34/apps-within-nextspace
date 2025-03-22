@@ -56,7 +56,7 @@ Sum: 7 apps | 3 frameworks
 
 ---
 
-## Reading NewsGroup: *LuserNET*
+## Reading News: *LuserNET*
 
 - Author: Alexander Malmberg 
 - Release: 0.4.3
@@ -84,12 +84,16 @@ Sum: 7 apps | 3 frameworks
 - Dependencies: Addresses and AddressView frameworks added.
 - **Status**: installable, functional.
 
+---
+
 ## Tasks and Appointments : *SimpleAgenda*
 
 - Author: Philippe Roussel
 - Release: 0.4.7
 - Source: github repo.
 - Dependencies: see homesite.
+
+---
 
 # TODO
 
