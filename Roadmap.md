@@ -35,7 +35,7 @@
 - Release: 1.0
 - Source: from [Savannah repository](http://savannah.nongnu.org/download/gap/Grr-1.0.tar.gz).
 - Dependency: [RSSKit Framework 0.4.0](http://savannah.nongnu.org/download/gap/RSSKit-0.4.tar.gz) added.
-- **Status**: issue #1  but not solved yet.
+- **Status**: [issue #1](https://github.com/pcardona34/apps-within-nextspace/issues/1)  but not solved yet.
 
 ---
 
