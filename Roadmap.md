@@ -30,12 +30,12 @@
 
 ## RSS syndication and News Reading
 
-- [x] Grr
-- Author: Gunther ...
-- Release: ...
-- Source: from Savannah repository.
-- Dependency: RSSKit Framework added.
-- **Status**: issue #1 but not solved yet.
+- [x] Grr (Gunther's RSS Reader)
+- Author: Gunther Noack; maintained by the GAP project team.
+- Release: 1.0
+- Source: from [Savannah repository](http://savannah.nongnu.org/download/gap/Grr-1.0.tar.gz).
+- Dependency: [RSSKit Framework 0.4.0](http://savannah.nongnu.org/download/gap/RSSKit-0.4.tar.gz) added.
+- **Status**: issue #1, but not solved yet.
       
 - [x] **LUserNET**
 - Author: Alexander Malmberg 
@@ -87,8 +87,8 @@
 
 - Scan: alternative to *gscan2pdf*:
 - [x] **PaperScan**
-- Version: 0.1
 - Author: Philippe Roussel
+- Version: 0.1
 - Source: Github repo of the author (poroussel)
 - Framework: Renaissance installed.
 - **Status**: installed. More tests to do...
