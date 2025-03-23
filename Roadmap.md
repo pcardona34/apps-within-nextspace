@@ -36,7 +36,9 @@
 - Source: from [Savannah repository](http://savannah.nongnu.org/download/gap/Grr-1.0.tar.gz).
 - Dependency: [RSSKit Framework 0.4.0](http://savannah.nongnu.org/download/gap/RSSKit-0.4.tar.gz) added.
 - **Status**: issue #1, but not solved yet.
-      
+
+---
+
 - [x] **LUserNET**
 - Author: Alexander Malmberg 
 - Release: 0.4.3
