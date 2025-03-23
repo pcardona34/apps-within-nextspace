@@ -18,8 +18,10 @@
 - It is the [gs-webbroser](https://github.com/onflapp/gs-webbrowser) fetched from the [GS-Desktop](https://github.com/onflapp/gs-desktop) project.
 - Author: Ondrej Florian (Onflapp)
 - **Status**: installable. Not yet fully functionnal due to the [454th issue under NEXTSPACE](https://github.com/trunkmaster/nextspace/issues/454)...
-- [ ] Needs more tests and checks to approve the integration into NEXTSPACE.
 - Checked dependencies: chromium.
+  
+- [ ] Needs more tests and checks to approve the integration into NEXTSPACE.
+
 
 - Alternative?
 - [ ] Maybe GS-NetSurf ?
@@ -28,15 +30,20 @@
 
 ## RSS syndication and News Reading
 
-- [ ] Grr
+- [x] Grr
+- Author: Gunther ...
+- Release: ...
+- Source: from Savannah repository.
+- Dependency: RSSKit Framework added.
+- **Status**: issue #1 but not solved yet.
       
 - [x] **LUserNET**
 - Author: Alexander Malmberg 
 - Release: 0.4.3
 - Source: from Savannah repository.
 - Dependency: Pantomime Framework added.
-- **Status**: functional. But the *gmane* NewsGroup of GNUstep is nomore available.
-- [ ] So Other groups to test with...
+- **Status**: functional.
+- [x] Tested with groups from 'news.gmane.io'
 
 ---
 
@@ -48,7 +55,7 @@
 - Source: fetching from Savannah.
 - Dependencies: Addresses and AddressView frameworks added.
 - **Status**: functional.
-    - [ ] TODO: export/import adresses from *abook* CLI
+    - [ ] TODO: export/import adresses from *abook* CLI 
 
 - [x] **GNUMail**
 - Authors: many ;-) (see Info Panel)
@@ -76,10 +83,15 @@
 ## Printing / scanning
 
 - via CUPS, but until now the Web Admin is not available due to the input issue under NEXTSPACE.
-- [ ] Alternative: CLI for CUPS/HPLIP ?
+- [x] Alternative: CLI for CUPS/HPLIP ?
 
 - Scan: alternative to *gscan2pdf*:
-- [ ] PaperScan (from Github repo of Poroussel)
+- [x] **PaperScan**
+- Version: 0.1
+- Author: Philippe Roussel
+- Source: Github repo of the author (poroussel)
+- Framework: Renaissance installed.
+- **Status**: installed. More tests to do...
 
 ---
 
