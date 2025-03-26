@@ -139,8 +139,9 @@ Alternative to *Unison*:
 
 ## Media / Video Player
 
-- Alternative to VLC? 
-(cf. GSDE 'MediaPlayer' encapsulating VLC ?)
+- [ ] **MPlayer** (testing stage in 'Drafts')
+- Author: Marco 'Eukara' Hladik (new maintainer)
+- See Issue [#2](https://github.com/pcardona34/apps-within-nextspace/issues/2)
 - [ ] Other?
 
 ---
