@@ -1,5 +1,10 @@
 # LOG of CHANGES
 
+### 2025 March 26th
+
+- Fixed Grr issue with RSSKit updated release from Gap (Github mirror)
+- Added: GSPdf, StepSync, Graphos.
+
 ### 2025 March 22th
 
 - Added the [RoadMap](Roadmap.md)

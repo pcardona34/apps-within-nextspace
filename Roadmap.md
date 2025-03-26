@@ -19,7 +19,7 @@
 - Author: Ondrej Florian (Onflapp)
 - **Status**: installable. Not yet fully functionnal due to the [454th issue under NEXTSPACE](https://github.com/trunkmaster/nextspace/issues/454)...
 - Checked dependencies: chromium.
-  
+
 - [ ] Needs more tests and checks to approve the integration into NEXTSPACE.
 
 
@@ -34,8 +34,8 @@
 - Author: Gunther Noack; maintained by the GAP project team.
 - Release: 1.0
 - Source: from [Savannah repository](http://savannah.nongnu.org/download/gap/Grr-1.0.tar.gz).
-- Dependency: [RSSKit Framework 0.4.0](http://savannah.nongnu.org/download/gap/RSSKit-0.4.tar.gz) added.
-- **Status**: [issue #1](https://github.com/pcardona34/apps-within-nextspace/issues/1)  but not solved yet.
+- Dependency: RSSKit Framework 0.6.0 from Github Gap Mirror.
+- **Status**: functional.
 
 ---
 
@@ -68,15 +68,21 @@
 
 ---
 
-## Document/PDF reader
+## Document/PS-PDF viewer
 
-- [ ] GSPdf
-
+- [x] **GSPdf**
+- Authors: Gap team, R. Mottola
+- Release: 0.5
+- **Status**: functional.
 ---
 
 ## Image view and manipulation
 
-- A viewer is already there in NEXTSPACE native apps.
+- A viewer is already there in NEXTSPACE native apps: **Review**
+- Author: Sergii Stoian
+- Release: 0.1
+- **Status**: functional for: jpeg, png, tiff. **Not yet**: .webp, .svg
+
 - Manipulation: alternative to *Gthumb* (crop, resize, convert):
 - [ ] PRICE
 
@@ -85,7 +91,11 @@
 ## Printing / scanning
 
 - via CUPS, but until now the Web Admin is not available due to the input issue under NEXTSPACE.
-- [x] Alternative: CLI for CUPS/HPLIP ?
+- [x] Alternative: CLI for CUPS/HPLIP, in my case:
+````
+sudo lpadmin -p HP-ENVY-5020 -E -v ipp://192.168.1.17 -m everywhere
+````
+- **Print test**: the default margin (0.3cm) is not enough.
 
 - Scan: alternative to *gscan2pdf*:
 - [x] **PaperScan**
@@ -94,6 +104,7 @@
 - Source: Github repo of the author (poroussel)
 - Framework: Renaissance installed.
 - **Status**: installed. More tests to do...
+  - **Not yet functional**: despite sane-airscan, the remote scanner is not available...
 
 ---
 
@@ -113,15 +124,17 @@ Alternative to 'birthday' CLI and 'Xmotd'; also tasks and todo from 'sleek':
 - Status: functional
 
 *Meteo*: alternative / interface to @igor_Chubin 'wttr.in' software ?
-- [ ] Maybe a dockapp ?  
+- [ ] Maybe a dockapp ?
 
 ---
 
-## Backup / Folders sync
+## Backup / Folder / File Synchroniser
 
 Alternative to *Unison*: 
-- [ ] StepSync
-
+- [x] **StepSync**
+- Author: Riccardo Mottola
+- Relase: 0.1
+- **Status**: functional.
 ---
 
 ## Media / Video Player
@@ -176,6 +189,15 @@ Alternative to *Calibre*:
 - [ ] Dictionary
 
 ---
+
+## Drawing
+
+### Vector Drawing
+
+- [x] **Graphos**
+- Authors: Riccardo Mottola, Enrico Sersale, Rob Burns 
+- Release: 0.6
+- Source: from Gap Mirror (Github)
 
 ## Games
 

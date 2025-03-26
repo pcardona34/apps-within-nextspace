@@ -1,0 +1,13 @@
+Index: GNUmakefile
+===================================================
+--- GNUmakefile	2025-03-26 00:22:07.803125205 +0100
++++ GNUmakefile	2025-03-26 00:04:34.680084507 +0100
+@@ -61,7 +61,7 @@
+ Resources/graphos_appicon_48.tif \
+ Resources/circle.tiff \
+ Resources/graphos_doc_icon_48.tif \
+-Resources/GraphosInfo.plist 
++GraphosInfo.plist
+
+ 
+ #
