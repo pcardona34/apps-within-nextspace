@@ -56,7 +56,7 @@
 - Release: 0.5.0
 - Source: fetching from Savannah.
 - Dependencies: Addresses and AddressView frameworks added.
-- **Status**: functional.
+- **Status**: ~~functional~~. (see issue #1)
     - [ ] TODO: export/import adresses from *abook* CLI 
 
 - [x] **GNUMail**
@@ -64,7 +64,7 @@
 - Release : 1.4.0
 - Source: from Savannah repository.
 - Dependency: Addresses and AddressView frameworks added.
-- **Status**: functional.
+- **Status**: ~~functional~~. (see issue #1)
 
 ---
 
