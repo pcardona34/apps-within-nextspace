@@ -1,5 +1,10 @@
 # LOG of CHANGES
 
+### 2025 March 31th
+
+- Fixed issue #1
+- Added: Affiche, Dictionary, EdenMath, PikoPixel, Player, PRICE, ScanImage.
+
 ### 2025 March 26th
 
 - Fixed Grr issue with RSSKit updated release from Gap (Github mirror)

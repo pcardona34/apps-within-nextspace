@@ -23,6 +23,9 @@ else
 	cd ../../../Applications/${PATH_SRC} || exit 1
 fi
 
+# Cosmetic: Icon from GS-Desktop
+cp ${_PWD}/AddressManager.tiff ./ 
+
 make ${BUILD_ARGS}
 
 cd ${_PWD}

@@ -26,7 +26,7 @@ if [ -n "${METHOD}" ];then
 					cd ${REPO} || exit 1
 				else
 					cd ${REPO}
-					git pull origin master
+					git pull origin ${BRANCH}
 				fi
 			else
 				printf "\nYou must set the REPO and the HUB vars.\n"

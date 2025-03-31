@@ -77,4 +77,7 @@ cd Frameworks || exit 1
 
 find . -type f -name '*.gz' -delete -print
 
+# Fixing the Linker issue
+sudo ldconfig
+
 cd ${__HERE}

@@ -65,7 +65,9 @@
 - Source: from Savannah repository.
 - Dependency: Addresses and AddressView frameworks added.
 - **Status**: functional.
+- N.B.: following the [GNUstep.org](https://mediawiki.gnustep.org/index.php/GNUMail.app) advice:
 
+> 'The Maildir message storage format should be preferred for new users (better performance, more robust).'
 ---
 
 ## Document/PS-PDF viewer
@@ -84,7 +86,11 @@
 - **Status**: functional for: jpeg, png, tiff. **Not yet**: .webp, .svg
 
 - Manipulation: alternative to *Gthumb* (crop, resize, convert):
-- [ ] PRICE
+- [x] **PRICE**
+- Source: SourceForge repo
+- Release: 1.3.0
+- Author: Riccardo Mottola
+- Status: functional
 
 ---
 
@@ -98,21 +104,28 @@ sudo lpadmin -p HP-ENVY-5020 -E -v ipp://192.168.1.17 -m everywhere
 - **Print test**: the default margin (0.3cm) is not enough.
 
 - Scan: alternative to *gscan2pdf*:
-- [x] **PaperScan**
-- Author: Philippe Roussel
-- Version: 0.1
-- Source: Github repo of the author (poroussel)
-- Framework: Renaissance installed.
-- **Status**: installed. More tests to do...
-  - **Not yet functional**: despite sane-airscan, the remote scanner is not available...
+- [x] **ScanImage**
+- Release: 0.1
+- Author: Onflapp
+- Source: GS-Desktop github repo
+- Dependencies: sane-utils
+- Status: scanning with my remote scanner: OK. But the save menu item is grayed. => issue #3. 
 
 ---
 
 ## Tools
 
-- [ ] Simple Calculator (from GNUstep Examples)
-- [x] **Screenshot**: yet a working CLI shell script: *ScreenShot.sh*.
+- [x] Calculator
+- It is **EdenMath**
+- Release: 1.1.1
+- Author: Chad Armstrong
+- Source: GS-Desktop github repo
+- Status: functionalIt is EdenMath
+- Release: 1.1.1
+
+- Screenshot: a shell script. To be improved.
     - [ ] TODO: GNUstep tool/app/service
+
 - [ ] Password Manager: maybe based on 'PASS' ?
 
 Alternative to 'birthday' CLI and 'Xmotd'; also tasks and todo from 'sleek':
@@ -137,12 +150,13 @@ Alternative to *Unison*:
 - **Status**: functional.
 ---
 
-## Media / Video Player
-
-- [ ] **MPlayer** (testing stage in 'Drafts')
-- Author: Marco 'Eukara' Hladik (new maintainer)
-- See Issue [#2](https://github.com/pcardona34/apps-within-nextspace/issues/2)
-- [ ] Other?
+## Watching Video
+- [x] **Player**
+- Description: a wrapper for VLC
+- Release: 0.1
+- Author: Onflapp
+- Source: GS-Desktop github repo
+- Status: functional
 
 ---
 
@@ -154,7 +168,7 @@ Alternative to *Scribus*:
 
 ## Reading and Writing
 
-### Note Taking
+### Note Taking (?)
 - [x] **NoteBook**:
 - Author: Jeremy Cowgar.
 - Licence: GPL 
@@ -162,6 +176,12 @@ Alternative to *Scribus*:
 - **Status**: functional. I have been using it fluently for several months.
 - Checked dependencies: only GNUstep needed.
   - [ ] enhancements... (see its own roadmap at the repo above)
+
+- [x] **Affiche**
+- Release: 0.6.0
+- Author: Ludovic Marcotte
+- Source: GS-Desktop github repo
+- Status: functional
 
 ### Writing
 
@@ -187,7 +207,12 @@ Alternative to *Calibre*:
 - [ ] Maybe 'LookUp' from GSDE with some tweaking ? A LookUp like service ?
 
 ### In the English Lexicon
-- [ ] Dictionary
+- [x] **Dictionary**
+- Release: 0.2
+- Authors: Guenther Noack, Chis B. Vetter
+- Source: GS-Desktop github repo: DictionaryReader
+- Dependencies: dict-wn dict-jargon dict-freedict-eng-fra
+- Status: functional
 
 ---
 
@@ -199,6 +224,14 @@ Alternative to *Calibre*:
 - Authors: Riccardo Mottola, Enrico Sersale, Rob Burns 
 - Release: 0.6
 - Source: from Gap Mirror (Github)
+
+### Pixel-Art Drawing
+
+- [x] **PikoPixel**
+- Release: 1.0.b10
+- Author: twilight Edge Software (Josh Freeman)
+- Source: GS-Desktop github repo clone
+- Status: functional (?) - Needs to be tested more.PikoPixel
 
 ## Games
 

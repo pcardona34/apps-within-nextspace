@@ -25,4 +25,7 @@ fi
 
 make ${BUILD_ARGS}
 
+# Fixing Linker issue
+sudo ldconfig
+
 cd ${_PWD}

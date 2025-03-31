@@ -24,4 +24,7 @@ sudo -E make install ${INSTALL_ARGS}
 
 make clean
 
+# Fixing linker issue
+sudo ldconfig
+
 cd ${_PWD}
