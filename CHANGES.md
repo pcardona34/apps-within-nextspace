@@ -1,5 +1,10 @@
 # LOG of CHANGES
 
+### 2025 April 1st
+
+- New Model: 'Draft/ModelTool' and 'Tools' dedicated Folder.
+- Added: Addresses-Goodies: adtool; Cenon; Chess; Gemas; Ladder and NeXTGo. 
+
 ### 2025 March 31th
 
 - Fixed issue #1

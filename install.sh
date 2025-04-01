@@ -1,6 +1,6 @@
 #!/bin/bash
 
-_VERSION=0.1
+_VERSION=0.2
 __HERE=`dirname $0`
 # Comment MODE_TEST before publishing
 #MODE_TEST="YES"
@@ -52,6 +52,29 @@ do
 		printf "\n${_FOLDER}: done.\n\n"
 		cd "$__PWD"
 	fi
+done
+
+cd ..
+
+cd Tools || exit 1
+__PWD=`pwd`
+
+clear
+printf "Other GNUstep Tools compliant with NEXTSPACE"
+printf "\n===========================================\n"
+
+for _FOLDER in `ls`
+do
+        if [ "$_FOLDER" != "README.md" ];then
+                printf "\nTool: ${_FOLDER}\n"
+                cd $_FOLDER
+                ./0_prep.sh
+                ./1_fetch.sh
+                ./2_build.sh
+                ./3_install.sh
+                printf "\n${_FOLDER}: done.\n\n"
+                cd "$__PWD"
+        fi
 done
 
 cd ../..
