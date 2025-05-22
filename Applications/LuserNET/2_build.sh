@@ -1,7 +1,6 @@
 #!/bin/bash
 
 _PWD=`pwd`
-_NX_PROFILE=/etc/profile.d/nextspace.sh
 _LIB_FW=/Library/Frameworks/
 
 if ! [ -f ${_PWD}/desc.sh ];then
@@ -19,13 +18,6 @@ if [ -n "${FRAMEWORKS}" ];then
 			exit 1
 		fi
 	done
-fi
-
-if [ -f ${_NX_PROFILE} ];then
-	. ${_NX_PROFILE}
-else
-	printf "\nError: ${_NX_PROFILE} not found.\n"
-	exit 1
 fi
 
 if [ -n ${REPO} ];then

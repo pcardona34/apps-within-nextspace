@@ -9,7 +9,7 @@ HUB="https://github.com/gnustep/"
 EXT=""					# if get method: "zip" | "tar.gz"...
 PATH_SRC="user-apps/${APPNAME}"
 FRAMEWORKS=""
-DEPS=""					# "YES" or leave empty
+DEPS="YES"					# "YES" or leave empty
 
 # READ SPECIFIC INFOS IN SOURCE FOLDER
 BUILD_ARGS=""
